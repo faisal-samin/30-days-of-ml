@@ -26,7 +26,7 @@ sticky note for.
 
 Hoping for progress tomorrow!
 
-# Day 2 (15-09-21)
+## Day 2 (15-09-21)
 
 Right, so I managed to resolve the issue with jupyter and another packages; turns out it was to do with a major Mac OS upgrade which required a re-install of Command Line Tools. *shrugs*
 Anyway, we're back in business.
