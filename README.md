@@ -47,3 +47,19 @@ The beauty of scikit-learn's design is at great show towards the end of this Cha
 
 That's it for today - hoping to do some more coding tomorrow, maybe with an introductory Kaggle competition (in whatever I can do in an hour!). 
 
+## Day 3 (16-09-21)
+
+Had a fairly busy day so chugging along with the 30 days with a less demanding task today. For a work side-project, I've prepared a dataset on UK House Prices
+for a Kaggle regression competition (similar to the classic Kaggle competition on the ames housing data). 
+
+Before I set people loose on the dataset and building models, I first need to check the integrity of data and check whether any variables come out as significant
+in predicting house prices.
+
+I developed a notebook with steps for  elementary processing, cleaning and one-hot encoding before training a basic linear regression model with three variables (one
+numerical and two categorical) and can be found [here](https://github.com/faisal-samin/uk-house-prices/blob/main/notebook_linreg_model.ipynb). The primary
+goal was to check whether a basic model could be developed to a reasonable accuracy level and I managed to get a model with an R^2 value of 0.7 (assuming
+that will be the main accuracy score) which is fairly reasonable without doing any feature engineering or exploring other models. 
+
+Main takeaways:
+* Consideration of the right accuracy metrics when designing a "Kaggle" competition to suit the needs of the modelling task. With a regression model, is R^2 
+the best? 
