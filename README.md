@@ -76,4 +76,4 @@ adapting the web-scraping code to scrape jobs ad in London for some tech/data po
 This was easier said than done however as the web-scraping code, which was written in 2018. no longer worked. Most of my evening was spent
 re-writing the code in BeautifulSoup with the new div classes and span tags and there is still some work left to go to extract the full job text from
 individual hyperlinks (which I've now gathered). Part 2 on this tomorrow when I'll hopefully get a chance to start playing around with the data and 
-explore some algorithms.
+explore some algorithms. Forked repo can be found [here](https://github.com/faisal-samin/Data_Job_Analysis).
