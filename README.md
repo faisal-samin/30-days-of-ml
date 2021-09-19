@@ -63,3 +63,17 @@ that will be the main accuracy score) which is fairly reasonable without doing a
 Main takeaways:
 * Consideration of the right accuracy metrics when designing a "Kaggle" competition to suit the needs of the modelling task. With a regression model, is R^2 
 the best? 
+
+## Day 4 (19-09-21)
+
+Unfortunately, I've had to take an hiatus over the last two days (a busy Friday, then a Saturday with family), neither of which are real excuses to be fair. 
+I'll try and keep the streak consistent through the next weekened! 
+
+I was keen to dip my toes into a multiclass text classification project today, and this is partly related to a work need. To start off, I dug out this 
+Medium [notebook](https://medium.com/analytics-vidhya/classifying-tech-data-job-postings-on-indeed-com-1fd8ca6e7cdd), forked the repo and went about
+adapting the web-scraping code to scrape jobs ad in London for some tech/data positions. 
+
+This was easier said than done however as the web-scraping code, which was written in 2018. no longer worked. Most of my evening was spent
+re-writing the code in BeautifulSoup with the new div classes and span tags and there is still some work left to go to extract the full job text from
+individual hyperlinks (which I've now gathered). Part 2 on this tomorrow when I'll hopefully get a chance to start playing around with the data and 
+explore some algorithms.
