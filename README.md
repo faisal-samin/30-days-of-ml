@@ -77,3 +77,12 @@ This was easier said than done however as the web-scraping code, which was writt
 re-writing the code in BeautifulSoup with the new div classes and span tags and there is still some work left to go to extract the full job text from
 individual hyperlinks (which I've now gathered). Part 2 on this tomorrow when I'll hopefully get a chance to start playing around with the data and 
 explore some algorithms. Forked repo can be found [here](https://github.com/faisal-samin/Data_Job_Analysis).
+
+## Day 5 (21-09-21)
+
+Another slip when building a streak... finding it more difficult to balance work, exercise, and now commuting to the office for the odd day in the week. 
+But better to resume and try and build another (and hopefully longer) streak than give up altogether!
+
+I've carried on working on the job classification repository and finalised the scraping code (and then ran the scraper which took a while) so we've now
+got a freshly pulled job descripton data from indeed on 4 job classes. I realise there's been no ML over the past two days but that dataset is now 
+ready to be exploited. Eager to look into this tomorrow!
