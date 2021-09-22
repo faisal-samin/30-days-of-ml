@@ -86,3 +86,15 @@ But better to resume and try and build another (and hopefully longer) streak tha
 I've carried on working on the job classification repository and finalised the scraping code (and then ran the scraper which took a while) so we've now
 got a freshly pulled job descripton data from indeed on 4 job classes. I realise there's been no ML over the past two days but that dataset is now 
 ready to be exploited. Eager to look into this tomorrow!
+
+## Day 6 (22-09-21)
+
+Right, let's get the party started. The scraping took almost 2 hours last night but we now have a rich dataset with around 500 job adverts for 4 job titles in London,  
+the majority of each have full, juicy descriptions. The goal is to train a multi-label classification model on this text using the job titles as labels.
+
+A lot of the hard work ot write the code for the sci-kit learn encoders and SVM model were already done for me I have to say but I did some exploration
+of the text with some word clouds to tailor the stop-words dictionary. A first model yielded an amazing 92.9% internal accuracy with a beautifully diagonal
+confusion matrix. I looked into some mis-classified example to understand which words were swinging the model's decision but the ideal way of reviewing this
+is through a visualisation - the code of which I need to refresh with my data. Full details can be found in the notebook at the repo [here](https://github.com/faisal-samin/Data_Job_Analysis/blob/master/analysis.ipynb).
+
+Fun times with some learnings on how to evaluate a multi-label classification model! 
