@@ -98,3 +98,17 @@ is through a visualisation - the code of which I need to refresh with my data. F
 Fun times with some learnings on how to evaluate a multi-label classification model.
 
 P.S. Re-reading some of daily entries, I realise I'm often just rushing them with boring updates and lots of typos (thanks to a bash text editor) so I can head to bed on time. But I'll work on these to make them more interesting, maybe even review and flesh out more detail retrospectively.
+
+## Day 7 (23-09-21)
+
+Most of my interests during these 30 days seemed to be driven by work needs (which has its pros and cons!). Today, it's topic modelling which partially
+falls into the realm of ML if we're being loose as it's an unsupervised method. I did a quick search on the topic and thought it would be useful to go
+through Chapter 6 of the excellent tidy text book which is available online for free [here](https://www.tidytextmining.com/topicmodeling.html).
+
+I went through about half of the Chapter and picked up some useful points already:
+* Some of the general features of the Latest Dirichlent algorithm (LDA) and how it treats each document as a mixture (or a soup) of topic, and each topic as a mixture of words which is in constrast to some of the "hard clustering" algorithms with stricter dichotomies.
+* How the beta values, i.e. the per-topic-per-word probabilities, can be studied to get a sense of the label for each topic.
+* How the gamme values, i.e. the per-document-per-topic probabilities, can be studied to understand the dominant topic for each document (or in this case, AP news articles).
+
+Code in the repo [here](https://github.com/faisal-samin/topic-modelling-r/blob/main/topic_modelling.R)
+
