@@ -112,3 +112,18 @@ I went through about half of the Chapter and picked up some useful points alread
 
 Code in the repo [here](https://github.com/faisal-samin/topic-modelling-r/blob/main/topic_modelling.R)
 
+## Day 8 (06-10-21)
+
+Well, this has been quite the failure! After an almost 2-week hiatus, I've finally found time and energy to dedicate some time to plodding on
+with this. A myriad of work pressures, a slight cold and busy weekends with family have occuped my time, and I say all this to make me feel
+better about myself, but honestly, you can always make time for things that are a priority for you (which this certainly is for me). 
+
+Anyway, today I spent the evening exploring a house prices dataset I fashioned together (see Day 3 update) but this time in R to explore the 
+tidymodels/keras APIs for Machine Learning. I've done most of my ML processing in scikit-learn so this was a good chance to get my hands dirty
+with R's packages of choice here. 
+
+I remember coming across a [free course](https://supervised-ml-course.netlify.app/) on supervised ML in R developed by Julia Silge so I followed 
+along to the regression sections. I did some EDA and simple modelling with base R's lm() function. The plan is to move on to more advanced
+techniques tomorrow. 
+
+I'll update with a link to my repo tomorrow. 
