@@ -127,3 +127,14 @@ along to the regression sections. I did some EDA and simple modelling with base 
 techniques tomorrow. 
 
 I'll update with a link to my repo tomorrow. 
+
+## Day 9 (07-10-21)
+
+Short update today: continued with EDA on the house prices dataset. There was a lot more to look into than first thought. I explored the following today:
+* Distributions of categorical variables primarily on price but also other numerical factors (e.g. no. of habitable rooms by local authority)
+* Consideration of which categorical variables to use and whether they required manipulation (further binning)
+* Correlation matrices and plots of numerical variable to identify the most heavily correlated variables with price
+* Using the above to avoid multi-collinearity between multiple features (e.g. many of the emissions and environmental fields are correlated).
+
+This has all been done so far on my work repo and while it's all public data and not sensitive, I'll shift things over once it's reached a 
+reasonable state to share. 
